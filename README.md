@@ -1,7 +1,6 @@
-# OOP Lab Tasks — CS-112L
+# OOP Lab Tasks 
 **Course:** Object Oriented Programming Lab  
-**Class:** BSIT-II A  
-**University:** Air University, Islamabad  
+**Class:** BSCS- A  
 **Language:** C++  
 
 ---
