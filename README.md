@@ -1,61 +1,60 @@
-# OOP Lab Tasks 
-**Course:** Object Oriented Programming Lab  
-**Class:** BSCS- A  
-**Language:** C++  
+C++ Object Oriented Programming
+A collection of C++ programs demonstrating core Object Oriented Programming concepts, built step by step from basic structures to advanced class-based design patterns.
 
----
+Topics Covered
+Structures
 
-## 📋 File List
+Declaring and initializing structures
+Accessing and displaying structure members
+Arrays of structures
+Passing structures as function parameters
+Nested structures
 
-| File | Topic |
-|------|-------|
-| `student_structure_basic.cpp` | Student structure — declaration, initialization, display |
-| `date_structure_input.cpp` | Date structure — user input in MM/DD/YYYY format |
-| `employee_structure_display.cpp` | Employee structure — display function |
-| `student_total_marks.cpp` | Multiple student instances — total marks calculation |
-| `student_marks_calculator.cpp` | Structure with 5 members — marks input and total |
-| `date_structure_format.cpp` | Date structure — store and print |
-| `employee_salary_struct.cpp` | Employee structure — salary display |
-| `movie_data_struct.cpp` | MovieData structure — title, director, year, runtime |
-| `triangle_area_nested_struct.cpp` | Nested structures — triangle area using Distance |
-| `employee_weekly_wage.cpp` | Weekly wage calculation using structures |
-| `date_class_formats.cpp` | Date class — print in 3 different formats |
-| `distance_class.cpp` | Distance class — setFeet, setInches, showDistance |
-| `employee_class_getset.cpp` | Employee class — getters and setters |
-| `car_class_accelerate_brake.cpp` | Car class — accelerate and brake functions |
-| `object_creation_message.cpp` | Class that prints message on object creation |
-| `employee_constructors.cpp` | Employee class — multiple constructors |
-| `circle_class_constructors.cpp` | Circle class — area, diameter, circumference |
-| `inventory_class.cpp` | Inventory class — item management with validation |
-| `payroll_array_objects.cpp` | Payroll class — array of 7 objects |
-| `travel_class_obj_param.cpp` | Travel class — object as function parameter |
-| `capital_static_member.cpp` | Capital class — static object counter |
-| `complex_number_const_ref.cpp` | Complex number — add, sub, mul with const reference |
-| `room_friend_function.cpp` | Room class — friend function example |
-| `student_copy_constructor.cpp` | Student class — copy constructor & member-wise assignment |
-| `complex_operator_overload.cpp` | Complex class — operator overloading (+, -, *, =, <<, >>) |
-| `month_operator_overload.cpp` | Month class — prefix/postfix ++/-- overloading |
-| `publication_book_tape_inherit.cpp` | Publication, Book, Tape — base & derived classes |
-| `production_worker_inherit.cpp` | Employee & ProductionWorker — inheritance |
-| `shift_supervisor_inherit.cpp` | ShiftSupervisor — derived from Employee |
-| `shape_triangle_circle_override.cpp` | Shape, Triangle, Circle — function overriding |
-| `phone_multilevel_inherit.cpp` | LocalPhone → NatPhone → IntPhone — multilevel inheritance |
-| `scholar_multiple_inherit.cpp` | Teacher + Writer → Scholar — multiple inheritance |
-| `preferred_customer_inherit.cpp` | PersonData → CustomerData → PreferredCustomer |
-| `paper_pointer_to_object.cpp` | Paper class — pointer to object, static variable |
-| `box_volume_this_pointer.cpp` | Box class — volume, this pointer, compare |
-| `stock_pointer_to_array.cpp` | Stock class — pointer to array of objects |
-| `carpet_room_aggregation.cpp` | RoomDimension & RoomCarpet — aggregation |
-| `shape_virtual_polymorphism.cpp` | Shape, Triangle, Circle — virtual functions & polymorphism |
-| `ship_virtual_functions.cpp` | Ship, CruiseShip, CargoShip — virtual print |
-| `person_pure_virtual.cpp` | Person (abstract), Employee, Teacher — pure virtual |
-| `date_exception_handling.cpp` | Date class — InvalidDay & InvalidMonth exceptions |
-| `rectangle_exception_handling.cpp` | Rectangle class — multiple exception types |
-| `min_max_templates.cpp` | Function templates — minimum and maximum |
-| `swap_function_template.cpp` | Function template — swap values |
-| `absolute_value_template.cpp` | Function template — absolute value |
+Classes & Objects
 
----
+Designing classes with private and public members
+Setter (mutator) and getter (accessor) functions
+Creating and using multiple objects
+Input validation inside classes
 
-## 🗂 Topics Covered
-`Structures` · `Classes` · `Constructors & Destructors` · `Static Members` · `Friend Functions` · `Copy Constructor` · `Operator Overloading` · `Inheritance` · `Multilevel & Multiple Inheritance` · `Pointers to Objects` · `Aggregation` · `Polymorphism` · `Virtual Functions` · `Exception Handling` · `Templates`
+Constructors & Destructors
+
+Default constructors
+Parameterized constructors
+Constructor overloading
+Destructors and object lifecycle
+
+Advanced OOP
+
+Copy constructor and member-wise assignment
+Operator overloading (unary, binary, stream)
+Inheritance (single, multilevel, multiple)
+Function overriding
+Pointers to objects and this pointer
+Aggregation
+Polymorphism and virtual functions
+Pure virtual functions and abstract classes
+Exception handling
+Function and class templates
+
+
+Programs Included
+ProgramDescriptionstudent_structure_basic.cppStore and display student info using structuresdate_structure_input.cppInput and display dates in MM/DD/YYYY formatemployee_structure_display.cppStore employee data with a separate display functionstudent_total_marks.cppMultiple student instances — calculate total marksstudent_marks_calculator.cppStructure with 5 members — subject marks and totaldate_structure_format.cppDate structure — store and printemployee_salary_struct.cppEmployee structure — salary displaymovie_data_struct.cppStore and display movie info via struct parameterstriangle_area_nested_struct.cppCalculate triangle area using nested Distance structureemployee_weekly_wage.cppCalculate weekly employee wages using structsdate_class_formats.cppClass-based date display in 3 different formatsdistance_class.cppClass with feet/inches setter and getter functionsemployee_class_getset.cppFull employee class with setters, getters, and displaycar_class_accelerate_brake.cppCar object with accelerate and brake functionsobject_creation_message.cppClass that prints a message on every object creationemployee_constructors.cppEmployee class with multiple constructor typescircle_class_constructors.cppCircle class — area, diameter, circumferenceinventory_class.cppRetail inventory class with input validationpayroll_array_objects.cppPayroll class using an array of 7 objectstravel_class_obj_param.cppTravel class — passing objects as function parameterscapital_static_member.cppStatic data member to count number of objects createdcomplex_number_const_ref.cppComplex number operations using const reference argsroom_friend_function.cppRoom class demonstrating friend function conceptstudent_copy_constructor.cppStudent class — copy constructor and member-wise assignmentcomplex_operator_overload.cppComplex class — overloading +, -, *, =, <<, >> operatorsmonth_operator_overload.cppMonth class — prefix and postfix ++ / -- overloadingpublication_book_tape_inherit.cppPublication, Book, Tape — base and derived classesproduction_worker_inherit.cppEmployee and ProductionWorker — single inheritanceshift_supervisor_inherit.cppShiftSupervisor derived from Employee classshape_triangle_circle_override.cppShape, Triangle, Circle — function overridingphone_multilevel_inherit.cppLocalPhone → NatPhone → IntPhone — multilevel inheritancescholar_multiple_inherit.cppTeacher + Writer → Scholar — multiple inheritancepreferred_customer_inherit.cppPersonData → CustomerData → PreferredCustomer chainpaper_pointer_to_object.cppPaper class — pointer to object with static counterbox_volume_this_pointer.cppBox class — volume calculation using this pointerstock_pointer_to_array.cppStock management using pointer to array of objectscarpet_room_aggregation.cppRoomDimension inside RoomCarpet — aggregation conceptshape_virtual_polymorphism.cppShape, Triangle, Circle — virtual functions and polymorphismship_virtual_functions.cppShip, CruiseShip, CargoShip — virtual print functionsperson_pure_virtual.cppPerson (abstract), Employee, Teacher — pure virtual functiondate_exception_handling.cppDate class — InvalidDay and InvalidMonth exceptionsrectangle_exception_handling.cppRectangle class — multiple exception types with recoverymin_max_templates.cppFunction templates for minimum and maximum valuesswap_function_template.cppTemplate function to swap values of any data typeabsolute_value_template.cppTemplate function to return absolute value
+
+Language & Tools
+
+Language: C++
+IDE: Visual Studio
+
+
+Author
+Asma Muneer
+BSCS Student 
+Passionate about clean code and object-oriented programming concepts
+
+Notes
+
+Programs are organized by concept for easy navigation
+Each program is self-contained and can run independently
+Code follows C++ best practices and conventions
+All programs tested and verified to compile without errors
